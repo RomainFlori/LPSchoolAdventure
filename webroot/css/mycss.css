@@ -1,0 +1,337 @@
+a {
+    cursor: pointer;
+    padding-top: 2%;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.h1VeryBig{
+    font-size: 50px;
+}
+
+.greyText{
+    color: rgb(52, 52, 52);
+}
+
+
+.navbarcss {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+}
+.margin_navbar {
+  margin-bottom: 11%;
+}
+
+.seConnecterBtn {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.seConnecterBtn:hover{
+    color: black;
+}
+
+.inscriptionBtn {
+    color: red;
+    border-radius: 30px;
+    border: 1px solid red;
+    padding: 7px 29px;
+}
+
+.inscriptionBtn:hover {
+    color: white;
+    background-color: red;
+}
+
+.downloadBtn {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    box-shadow: rgba(255, 0, 0, 0.45) 0px 13px 27px -5px, rgba(255, 0, 0, 0.5) 0px 8px 16px -8px;
+    border-radius: 12px;
+    padding: 15px 0;
+    transition: transform .3s; /* Animation */
+    white-space: nowrap!important;
+    width: 100%;
+}
+
+.downloadBtn:hover {
+    transform: scale(1.1);
+    background-color: red;
+    color: white;
+
+}
+
+.divShadowRounded {
+    box-shadow: rgba(91, 91, 91, 0.25) 0px 13px 27px -5px, rgba(131, 131, 131, 0.3) 0px 8px 16px -8px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px;
+}
+
+.textdivShadowRounded {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.ligneHorizontal {
+    border-left: 2px solid rgba(182, 182, 182, 0.481);
+    height: 100%;
+}
+
+.bordedDivGrayPrice {
+    border: 2px solid rgba(182, 182, 182, 0.481);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.divCarouselGames {
+    border: 2px solid rgba(133, 133, 133, 0.481);
+    border-radius: 12px;
+    padding: 20px;
+    width: 400px;
+}
+
+.iconSizeStyle {
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+/* page team */
+.profileDiv {
+    transition: transform .3s; /* Animation */
+
+}
+.profileDiv:hover {
+    transform: scale(1.1);
+
+}
+
+
+
+/* PAGE FAQ */
+
+.myaccordion {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+summary {
+  font-size: 1.25rem;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+
+  outline: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  animation: sweep .5s ease-in-out;
+  /* position: relative; */
+}
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* NAVBAR IPHONE/TEL */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+  .wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    clip-path: circle(25px at calc(100% - 45px) 45px);
+    transition: all 0.3s ease-in-out;
+  }
+  #active:checked ~ .wrapper{
+    clip-path: circle(75%);
+  }
+  .menu-btn{
+    position: fixed;
+    z-index: 100;
+    right: 35px;
+    top: 30px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background: #000;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #active:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  .wrapper ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+  }
+  .wrapper ul li{
+    margin: 3% 0;
+  }
+  /* @media screen and (min-width: 600px) { */
+
+  /* @media screen and (max-width: 500px) {
+
+    .wrapper ul li {
+      margin: 3% 0;
+    }
+  } */
+
+
+
+  .wrapper ul li a{
+    color: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 30px;
+    border-radius: 50px;
+    background: #ffffff;
+    position: relative;
+    line-height: 50px;
+    transition: all 0.3s ease;
+  }
+
+
+  .wrapper ul li a:hover{
+    color: #fff;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+  }
+  .content .title{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .content p{
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+  @keyframes rotate {
+    0%{
+      filter: hue-rotate(0deg);
+    }
+    100%{
+      filter: hue-rotate(360deg);
+    }
+  }
+
+
+  /* TIMELINE PAGE */
+
+  .timeline{
+    color:#fff;
+    padding:30px 20px;
+  }
+  .timeline ul{
+    list-style-type:none;
+    border-left:2px solid #094a68;
+    padding:10px 5px;
+  }
+  .timeline ul li{
+    padding:20px 20px;
+    position:relative;
+    cursor:pointer;
+    transition:.5s;
+  }
+  .timeline ul li span{
+    display:inline-block;
+    background-color:#1685b8;
+    border-radius:25px;
+    padding:2px 5px;
+    font-size:15px;
+    text-align:center;
+  }
+  .timeline ul li .content h3{
+    color:#34ace0;
+    font-size:17px;
+    padding-top:5px;
+  }
+  .timeline ul li .content p{
+    padding:5px 0px 15px 0px;
+    font-size:15px;
+    color: #000;
+  }
+  .timeline ul li:before{
+    position:absolute;
+    content:'';
+    width:10px;
+    height:10px;
+    background-color:#34ace0;
+    border-radius:50%;
+    left:-11px;
+    top:28px;
+    transition:.5s;
+    color: #000;
+
+  }
+  .timeline ul li:hover{
+    background-color:#d0d0d0;
+  }
+  /* .timeline:hover ul > li > div > p{
+    color: white !important;
+  } */
+  .timeline ul li:hover:before{
+    background-color:#0F0;
+    box-shadow:0px 0px 10px 2px #0F0;
+  }
+  @media (max-width:300px){
+    .timeline{
+      width:100%;
+      padding:30px 5px 30px 10px;
+    }
+    .timeline ul li .content h3{
+      color:#34ace0;
+      font-size:15px;
+    }
+  
+  }
+
+/* END TIMELINE PAGE */

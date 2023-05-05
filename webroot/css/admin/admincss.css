@@ -1,0 +1,56 @@
+.userDropDown {
+    font-size: 28px;
+}
+
+/* boxes */
+
+.designBox {
+    min-height: 250px;
+    border-radius: 15px;
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 6%;
+    color: white;
+    transition: transform 1.2s;
+    
+}
+
+.designBox:hover {
+    -ms-transform: scale(1.040);
+    -webkit-transform: scale(1.040);
+    transform: scale(1.040);
+}
+
+/* .first-color { 
+	background: #7dd87d; 
+}
+	
+.second-color { 
+	background: #4c9173; 
+}
+
+.third-color { 
+	background: #5b446a; 
+}
+
+.fourth-color { 
+	background: #906387; 
+} */
+
+/* good colors */
+.first-color { 
+	background: #363b4e; 
+}
+	
+.second-color { 
+	background: #4f3b78; 
+}
+
+.third-color { 
+	background: #927fbf; 
+}
+
+.fourth-color { 
+	background: #c4bbf0; 
+}
+
