@@ -12,6 +12,6 @@ Landing Page du projet SchoolAdventure
 <img width="1088" height="1224" alt="image" src="https://github.com/user-attachments/assets/4c32e96e-4d6b-4c10-8a7d-d746aa3971de" />
 <img width="1088" height="1130" alt="image" src="https://github.com/user-attachments/assets/b2115348-5421-4784-9d6d-dfbe7de6b669" />
 <img width="1088" height="939" alt="image" src="https://github.com/user-attachments/assets/253e0d08-7f4b-4633-b1e9-9819998a77ba" />
-<img width="1088" height="1067" alt="image" src="https://github.com/user-attachments/assets/030735f3-218a-4d33-b968-6b0d9b98a4e1" />
+<img width="1088" height="851" alt="image" src="https://github.com/user-attachments/assets/00bf6330-c605-4213-9dce-f6beaac6e337" />
 <img width="1088" height="1182" alt="image" src="https://github.com/user-attachments/assets/88d115a2-ec22-4dce-8d4c-732a0f39c029" />
 
