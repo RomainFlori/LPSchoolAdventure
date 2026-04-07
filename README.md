@@ -1,6 +1,6 @@
 # LPSchoolAdventure
 Landing Page du projet SchoolAdventure (projet de fin d'études pour Epitech programme grande écoles).
-Projet réalisé en react.JS et Angular
+Projet réalisé en PHP
 
 <img width="1050" height="939" alt="image" src="https://github.com/user-attachments/assets/9c5bf6ec-8527-4436-b719-c85880f3cba5" />
 <img width="1047" height="860" alt="image" src="https://github.com/user-attachments/assets/70568591-f2e8-4c8b-811d-5d7045ec1e6b" />
